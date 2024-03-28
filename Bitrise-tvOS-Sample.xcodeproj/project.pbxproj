@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B6BED542BB5976100B42425 /* Bitrise_tvOS_SampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6BED532BB5976100B42425 /* Bitrise_tvOS_SampleApp.swift */; };
+		4B6BED562BB5976100B42425 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6BED552BB5976100B42425 /* ContentView.swift */; };
+		4B6BED582BB5976200B42425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B6BED572BB5976200B42425 /* Assets.xcassets */; };
+		4B6BED5B2BB5976200B42425 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B6BED5A2BB5976200B42425 /* Preview Assets.xcassets */; };
+		4B6BED652BB5976200B42425 /* Bitrise_tvOS_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6BED642BB5976200B42425 /* Bitrise_tvOS_SampleTests.swift */; };
+		4B6BED6F2BB5976200B42425 /* Bitrise_tvOS_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6BED6E2BB5976200B42425 /* Bitrise_tvOS_SampleUITests.swift */; };
+		4B6BED712BB5976200B42425 /* Bitrise_tvOS_SampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6BED702BB5976200B42425 /* Bitrise_tvOS_SampleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B6BED612BB5976200B42425 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B6BED482BB5976100B42425 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B6BED4F2BB5976100B42425;
+			remoteInfo = "Bitrise-tvOS-Sample";
+		};
+		4B6BED6B2BB5976200B42425 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B6BED482BB5976100B42425 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B6BED4F2BB5976100B42425;
+			remoteInfo = "Bitrise-tvOS-Sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B6BED502BB5976100B42425 /* Bitrise-tvOS-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bitrise-tvOS-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B6BED532BB5976100B42425 /* Bitrise_tvOS_SampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bitrise_tvOS_SampleApp.swift; sourceTree = "<group>"; };
+		4B6BED552BB5976100B42425 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4B6BED572BB5976200B42425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B6BED5A2BB5976200B42425 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B6BED602BB5976200B42425 /* Bitrise-tvOS-SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bitrise-tvOS-SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B6BED642BB5976200B42425 /* Bitrise_tvOS_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bitrise_tvOS_SampleTests.swift; sourceTree = "<group>"; };
+		4B6BED6A2BB5976200B42425 /* Bitrise-tvOS-SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bitrise-tvOS-SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B6BED6E2BB5976200B42425 /* Bitrise_tvOS_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bitrise_tvOS_SampleUITests.swift; sourceTree = "<group>"; };
+		4B6BED702BB5976200B42425 /* Bitrise_tvOS_SampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bitrise_tvOS_SampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B6BED4D2BB5976100B42425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B6BED5D2BB5976200B42425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B6BED672BB5976200B42425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B6BED472BB5976100B42425 = {
+			isa = PBXGroup;
+			children = (
+				4B6BED522BB5976100B42425 /* Bitrise-tvOS-Sample */,
+				4B6BED632BB5976200B42425 /* Bitrise-tvOS-SampleTests */,
+				4B6BED6D2BB5976200B42425 /* Bitrise-tvOS-SampleUITests */,
+				4B6BED512BB5976100B42425 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B6BED512BB5976100B42425 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B6BED502BB5976100B42425 /* Bitrise-tvOS-Sample.app */,
+				4B6BED602BB5976200B42425 /* Bitrise-tvOS-SampleTests.xctest */,
+				4B6BED6A2BB5976200B42425 /* Bitrise-tvOS-SampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B6BED522BB5976100B42425 /* Bitrise-tvOS-Sample */ = {
+			isa = PBXGroup;
+			children = (
+				4B6BED532BB5976100B42425 /* Bitrise_tvOS_SampleApp.swift */,
+				4B6BED552BB5976100B42425 /* ContentView.swift */,
+				4B6BED572BB5976200B42425 /* Assets.xcassets */,
+				4B6BED592BB5976200B42425 /* Preview Content */,
+			);
+			path = "Bitrise-tvOS-Sample";
+			sourceTree = "<group>";
+		};
+		4B6BED592BB5976200B42425 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4B6BED5A2BB5976200B42425 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4B6BED632BB5976200B42425 /* Bitrise-tvOS-SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B6BED642BB5976200B42425 /* Bitrise_tvOS_SampleTests.swift */,
+			);
+			path = "Bitrise-tvOS-SampleTests";
+			sourceTree = "<group>";
+		};
+		4B6BED6D2BB5976200B42425 /* Bitrise-tvOS-SampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B6BED6E2BB5976200B42425 /* Bitrise_tvOS_SampleUITests.swift */,
+				4B6BED702BB5976200B42425 /* Bitrise_tvOS_SampleUITestsLaunchTests.swift */,
+			);
+			path = "Bitrise-tvOS-SampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B6BED4F2BB5976100B42425 /* Bitrise-tvOS-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B6BED742BB5976200B42425 /* Build configuration list for PBXNativeTarget "Bitrise-tvOS-Sample" */;
+			buildPhases = (
+				4B6BED4C2BB5976100B42425 /* Sources */,
+				4B6BED4D2BB5976100B42425 /* Frameworks */,
+				4B6BED4E2BB5976100B42425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bitrise-tvOS-Sample";
+			productName = "Bitrise-tvOS-Sample";
+			productReference = 4B6BED502BB5976100B42425 /* Bitrise-tvOS-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B6BED5F2BB5976200B42425 /* Bitrise-tvOS-SampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B6BED772BB5976200B42425 /* Build configuration list for PBXNativeTarget "Bitrise-tvOS-SampleTests" */;
+			buildPhases = (
+				4B6BED5C2BB5976200B42425 /* Sources */,
+				4B6BED5D2BB5976200B42425 /* Frameworks */,
+				4B6BED5E2BB5976200B42425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B6BED622BB5976200B42425 /* PBXTargetDependency */,
+			);
+			name = "Bitrise-tvOS-SampleTests";
+			productName = "Bitrise-tvOS-SampleTests";
+			productReference = 4B6BED602BB5976200B42425 /* Bitrise-tvOS-SampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B6BED692BB5976200B42425 /* Bitrise-tvOS-SampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B6BED7A2BB5976200B42425 /* Build configuration list for PBXNativeTarget "Bitrise-tvOS-SampleUITests" */;
+			buildPhases = (
+				4B6BED662BB5976200B42425 /* Sources */,
+				4B6BED672BB5976200B42425 /* Frameworks */,
+				4B6BED682BB5976200B42425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B6BED6C2BB5976200B42425 /* PBXTargetDependency */,
+			);
+			name = "Bitrise-tvOS-SampleUITests";
+			productName = "Bitrise-tvOS-SampleUITests";
+			productReference = 4B6BED6A2BB5976200B42425 /* Bitrise-tvOS-SampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B6BED482BB5976100B42425 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					4B6BED4F2BB5976100B42425 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					4B6BED5F2BB5976200B42425 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 4B6BED4F2BB5976100B42425;
+					};
+					4B6BED692BB5976200B42425 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 4B6BED4F2BB5976100B42425;
+					};
+				};
+			};
+			buildConfigurationList = 4B6BED4B2BB5976100B42425 /* Build configuration list for PBXProject "Bitrise-tvOS-Sample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B6BED472BB5976100B42425;
+			productRefGroup = 4B6BED512BB5976100B42425 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B6BED4F2BB5976100B42425 /* Bitrise-tvOS-Sample */,
+				4B6BED5F2BB5976200B42425 /* Bitrise-tvOS-SampleTests */,
+				4B6BED692BB5976200B42425 /* Bitrise-tvOS-SampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B6BED4E2BB5976100B42425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B6BED5B2BB5976200B42425 /* Preview Assets.xcassets in Resources */,
+				4B6BED582BB5976200B42425 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B6BED5E2BB5976200B42425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B6BED682BB5976200B42425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B6BED4C2BB5976100B42425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B6BED562BB5976100B42425 /* ContentView.swift in Sources */,
+				4B6BED542BB5976100B42425 /* Bitrise_tvOS_SampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B6BED5C2BB5976200B42425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B6BED652BB5976200B42425 /* Bitrise_tvOS_SampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B6BED662BB5976200B42425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B6BED6F2BB5976200B42425 /* Bitrise_tvOS_SampleUITests.swift in Sources */,
+				4B6BED712BB5976200B42425 /* Bitrise_tvOS_SampleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B6BED622BB5976200B42425 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B6BED4F2BB5976100B42425 /* Bitrise-tvOS-Sample */;
+			targetProxy = 4B6BED612BB5976200B42425 /* PBXContainerItemProxy */;
+		};
+		4B6BED6C2BB5976200B42425 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B6BED4F2BB5976100B42425 /* Bitrise-tvOS-Sample */;
+			targetProxy = 4B6BED6B2BB5976200B42425 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B6BED722BB5976200B42425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 17.4;
+			};
+			name = Debug;
+		};
+		4B6BED732BB5976200B42425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 17.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B6BED752BB5976200B42425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bitrise-tvOS-Sample/Preview Content\"";
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.bitrise.sample.tvos.Bitrise-tvOS-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		4B6BED762BB5976200B42425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bitrise-tvOS-Sample/Preview Content\"";
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.bitrise.sample.tvos.Bitrise-tvOS-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		4B6BED782BB5976200B42425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.bitrise.sample.tvos.Bitrise-tvOS-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitrise-tvOS-Sample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bitrise-tvOS-Sample";
+				TVOS_DEPLOYMENT_TARGET = 17.4;
+			};
+			name = Debug;
+		};
+		4B6BED792BB5976200B42425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.bitrise.sample.tvos.Bitrise-tvOS-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitrise-tvOS-Sample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bitrise-tvOS-Sample";
+				TVOS_DEPLOYMENT_TARGET = 17.4;
+			};
+			name = Release;
+		};
+		4B6BED7B2BB5976200B42425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.bitrise.sample.tvos.Bitrise-tvOS-SampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Bitrise-tvOS-Sample";
+			};
+			name = Debug;
+		};
+		4B6BED7C2BB5976200B42425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.bitrise.sample.tvos.Bitrise-tvOS-SampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Bitrise-tvOS-Sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B6BED4B2BB5976100B42425 /* Build configuration list for PBXProject "Bitrise-tvOS-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B6BED722BB5976200B42425 /* Debug */,
+				4B6BED732BB5976200B42425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B6BED742BB5976200B42425 /* Build configuration list for PBXNativeTarget "Bitrise-tvOS-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B6BED752BB5976200B42425 /* Debug */,
+				4B6BED762BB5976200B42425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B6BED772BB5976200B42425 /* Build configuration list for PBXNativeTarget "Bitrise-tvOS-SampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B6BED782BB5976200B42425 /* Debug */,
+				4B6BED792BB5976200B42425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B6BED7A2BB5976200B42425 /* Build configuration list for PBXNativeTarget "Bitrise-tvOS-SampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B6BED7B2BB5976200B42425 /* Debug */,
+				4B6BED7C2BB5976200B42425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B6BED482BB5976100B42425 /* Project object */;
+}
